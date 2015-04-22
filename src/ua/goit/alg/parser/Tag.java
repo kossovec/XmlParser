@@ -30,5 +30,17 @@ public class Tag {
   public Map getAttributes() {
     return attributes;
   }
+
+  public boolean isAttributePresent() {
+    return (attributes == null);
+  }
+
+  public boolean isTagNamePresent() {
+    return (tagName == null);
+  }
+
+  public boolean isTagTextPresent() {
+    return (tagText == null);
+  }
 }
 
