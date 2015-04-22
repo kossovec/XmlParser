@@ -32,15 +32,15 @@ public class Tag {
   }
 
   public boolean isAttributePresent() {
-    return (attributes == null);
+    return (attributes != null);
   }
 
   public boolean isTagNamePresent() {
-    return (tagName == null);
+    return (tagName != null);
   }
 
   public boolean isTagTextPresent() {
-    return (tagText == null);
+    return (tagText != null);
   }
 }
 
