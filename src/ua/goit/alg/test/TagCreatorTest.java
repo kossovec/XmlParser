@@ -28,7 +28,7 @@ public class TagCreatorTest {
       tagCreator.appendAttributeValue(c);
     }
 
-    tagCreator.addAtribute();
+    tagCreator.addAttribute();
     tag = tagCreator.createTag();
     Set<Map.Entry<String, String>> attributeEntry = tag.getAttributes().entrySet();
     Map.Entry<String, String> entry = attributeEntry.iterator().next();
