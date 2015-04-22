@@ -11,7 +11,7 @@ public class TagCreator {
   private StringBuilder attributeValue = new StringBuilder();
   private StringBuilder tagText = new StringBuilder();
 
-  public void addAtribute() {
+  public void addAttribute() {
     attributeHolder.put(attributeName.toString(), attributeValue.toString());
     attributeName.delete(0,attributeName.capacity());
     attributeValue.delete(0,attributeValue.capacity());

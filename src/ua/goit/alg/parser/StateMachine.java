@@ -138,7 +138,7 @@ public class StateMachine {
         }
 
         if (c == '>') {
-          creator.addAtribute();
+          creator.addAttribute();
           Tag tag = creator.createTag();
           xmlParser.handle(HandlerNames.ON_OPEN_TAG, tag);
           result = NODE;
